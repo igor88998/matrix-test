@@ -17,6 +17,14 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
+.row:hover .cell.cellClosest {
+  background: rgba(34, 197, 94, 0.35);
+}
+
+.row:hover .cell.cellClosest:hover {
+  background: rgba(34, 197, 94, 0.5);
+}
+
 .cell {
   padding: 0.6rem 0.75rem;
   min-width: 4rem;
@@ -116,6 +124,14 @@
 
 :global([data-theme="light"]) .row:hover .cell {
     background: rgba(0, 0, 0, 0.03);
+}
+
+:global([data-theme="light"]) .row:hover .cell.cellClosest {
+    background: rgba(34, 197, 94, 0.25);
+}
+
+:global([data-theme="light"]) .row:hover .cell.cellClosest:hover {
+    background: rgba(34, 197, 94, 0.35);
 }
 
 :global([data-theme="light"]) .cell {
