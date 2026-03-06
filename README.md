@@ -70,6 +70,8 @@ npm run build
 npm run preview   # перевірка збірки локально
 ```
 
+Vercel [https://matrix-test-teal.vercel.app/](https://matrix-test-teal.vercel.app/).
+
 ## Обмеження
 
 - Не використовуються: Redux, Redux Toolkit, styled-components, UI-бібліотеки, css-in-js.
